@@ -1,0 +1,56 @@
+/* My_first_blog */
+/* 2019-10-30 */
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    line-height: 1.15;
+}
+div{
+    display: block;
+}
+p{
+    display: block;
+}
+.content{
+    padding: 0 60px;
+}
+header{
+    position: relative;
+    margin: 0;
+    padding: 50px 0 0;
+    text-align: left;
+    color: #999;
+    border-bottom: 1px solid #999;
+}
+header a{
+    /* 去掉a标签下划线 */
+    text-decoration: none;
+}
+header p{
+    margin: 1em 0 0;
+}
+#header-logo{
+    font-size: 38px;
+    font: bold;
+    color: #555;
+}
+#nav-menu{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    font-size: 0px;
+    /* box-sizing: border-box; */
+}
+#nav-menu a{
+    font-size: 16px;
+    padding: 3px 20px 0;
+    /* border: 1px solid #ddd; */
+}
+#nav-menu a.current{
+    border: 1px solid #999;
+    border-bottom-color: #ffffff;
+    /* bottom: 1px; */
+    margin: 0 0 -1px;
+    z-index: 2;
+}
