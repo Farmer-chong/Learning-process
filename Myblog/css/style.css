@@ -173,11 +173,13 @@ footer #footer{
     margin: 0;
     width: 20%;
     display: inline-block;
+    
     /* float: right; */
 }
 #blog-right #blog-nav{
     margin-top: 40px;
     padding-left: 35px;
+    border-left: 1px solid #ddd;
 }
 .widget{
     margin-bottom: 30px;
