@@ -68,6 +68,7 @@ p{
 #blog{
     word-wrap: break-word;
     position: relative;
+    letter-spacing: 0.75px;
 }
 #blog #blog-left{
     width: 75%;
