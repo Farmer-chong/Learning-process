@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    font-family: "微软雅黑";
+    width: 100%;
+    min-width: 1200px;
+}
+/* 导航栏部分 */
+header{
+    background-color: white;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.nav{
+    margin: 0 auto;
+    border-bottom: 1px solid #999;
+    height: auto;
+    font-size: 0;
+    overflow: hidden;
+    width: 90%;
+    padding: 10px 0 10px 0;
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+}
+.nav ul li{
+    font-size: 16px;
+    float: left;
+}
+.nav ul li img{
+    width: auto;
+    height: 85px;
+}
+.nav ul li a{
+    width: 155px;
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+}
+
+.nav ul li a:hover{
+    color: #fff;
+    background-color: #0064CBFF;
+    border-radius: 10px;
+}
+.nav ul li ul {
+    position: absolute;
+    z-index: 99;
+    border-radius: 10px;
+}
+.nav ul li ul li{
+    float: none;
+    display: none;
+    border-radius: 10px;
+}
+.nav ul li ul li a{
+    height: auto;
+    display: block;
+    font-size: 18px;
+    padding: auto 0px;
+    border-bottom: 0.8px solid #999;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav ul li:hover ul  li{
+    display: block;
+}
+/* 导航栏end */
+
+/* contenter */
+#bg{
+    margin: 15px 10%;
+    height: auto;
+    position: relative;
+}
+#left{
+    display: inline-block;
+    width: 70%;
+    height: auto;
+}
+#right{
+    width: 28%;
+    display: inline-block;
+
+}
+/* /* SQL-WORK */
+.box{
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin: 35px 0 0 0;
+    position: relative;
+    height: auto;
+
+} 
+.box a{
+    display: inline-block;
+}
+.box a img{
+
+    min-width: 200px;
+    max-width: 250px;
+    margin: 15px;
+}
+.box_1{
+    margin: 15px 5px 0 0;
+    position: absolute;
+    display: inline-block;
+} 
+.box p{
+    text-indent: 50px;
+    color: #888888;
+}
+.box_1 a{
+    color: #555555;
+    font-family: ”微软雅黑“;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box_1 a:hover{
+    color: skyblue;
+}
+
+#box_button{
+    position: absolute;
+    border: 1px solid skyblue;
+    color: skyblue;
+    font-size: 18px;
+    font-weight: normal;
+    right: 15px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    bottom: -40px;
+}
+#box_button i{
+    margin-left: 5px;
+    
+}
+#right{
+    margin: 50px 0 0 ;
+    padding: 0 0 0 35px;
+    top: 0;
+    position: absolute;
+}
+.share{
+    width: 90%;
+    position: relative;
+    margin-top: 25px;
+    border: 1px solid #3396cb;
+    border-radius: 5px;
+}
+.share a{
+    padding: 0px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.share strong{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px 5px;
+    background-color: #3396cb;
+    color: white;
+}
+.share h2{
+    padding: 5px 15px;
+    color: #3396cb;
+    text-align: center;
+}
+.share p{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+.request{
+    width: 90%;
+    position: relative;
+    margin-top: 25px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.request:hover{
+    border: 1px solid #3396cb;
+}
+.request:hover strong{
+    background-color: #3396cb;
+}
+.request:hover h2{
+    color: #3396cb;
+}
+.request a{
+    padding: 0px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.request strong{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px 5px;
+    background-color: skyblue;
+    color: white;
+}
+.request h2{
+    padding: 5px 15px;
+    text-align: center;
+    color: skyblue;
+}
+.request p{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+/* share-link */
+.share-link{
+    
+    margin-top: 30px;
+    width: 90%;
+    border: 0.8px solid #999;
+}
+.share-link h2{
+    background: #666;
+    color: whitesmoke;
+    padding: 3px 15px;
+}
+
+.menu{
+    width: 100%;
+    font-size: 18px;
+    height: auto;
+    position: relative;
+    
+}
+.menu a{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    color: #999;
+    display: block;
+    position: relative;
+}
+.menu img{
+    margin: 10px;
+    width: 100px;
+    padding: 5px 5px 5px 15px;
+    display: inline-block;
+}
+
+.share-icon{
+    display: inline-block;
+    margin: auto;
+}
+.share-text{
+    top: 20px;
+    float: right;
+    position: absolute;
+}
