@@ -1,95 +1,71 @@
-   * {
-            margin: 0;
-            padding: 0;
-        }
-        .bg{
-            background-color: #f4f4f4;
-        }
-        
-        .head {
-            /*铺满*/
-            width: 100%;
-            max-height: 75px;
-            background-color: #fff;
-            z-index: 99;
-            position: fixed;
-            top:0;
-        }
-        .nav {
-            position: relative;
-            /*绝对定位*/
-            border: 1px  none #fff;
-            width:1518px;
-            height:auto;
-            margin:0px auto;
-        }
-        
-        .nav ul {
-            list-style-type: none;
-            /*置顶*/
-            position: relative;
-            top: 0;
-            align-content: center
-            /*铺满*/
-            width: 100%;
-            background-color: #dcdcdc;
-            z-index: 2;
-        }
-        
-        .nav ul li {
-            float: left;
-        }
-        .nav ul li img{
-             width:100%;
-             max-width:100%;
-             left:-30px
-        }
-        
-        .nav ul li a {
-            height: 75px;
-            width: 150px;
-            line-height: 75px;
-            display: block;
-            color: #000;
-            font-family: 微软雅黑;
-            /*内框架*/
-            /*去除下划线*/
-            text-decoration: none;
-            /*字体居中*/
-            text-align: center;
-            font-size: 18px;
-        }
-        
-        .nav li a:hover {
-            background: rgba(128, 203, 214, 0.267)/*鼠标滑过变色*/
-        }
-        
-        .nav li ul {
-            position: absolute;
-            align-items: center;
-            top: 73px;
-            /*相对定位*/
-            display: none;
-        }
-        
-        .nav li ul li {
-            float: none;
-        }
-        
-        .nav ul ul li a {
-            display: block;
-            color: #000;
-            /*内框架*/
-            padding: auto 0px;
-            /*去除下划线*/
-            text-decoration: none;
-            /*字体居中*/
-            text-align: center;
-            font-size: 15px;
-        }
 
+/* 导航栏部分 */
+header{
+    background-color: white;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.nav{
+    margin: 0 auto;
+    border-bottom: 1px solid #999;
+    height: auto;
+    font-size: 0;
+    overflow: hidden;
+    width: 90%;
+    padding: 10px 0 10px 0;
+}
 
-        
-        .nav ul li:hover ul {
-            display: block;
-        }
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+}
+.nav ul li{
+    font-size: 16px;
+    float: left;
+}
+.nav ul li img{
+    width: auto;
+    height: 85px;
+}
+.nav ul li a{
+    width: 155px;
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+}
+
+.nav ul li a:hover{
+    color: #fff;
+    background-color: #0064CBFF;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.nav ul li ul {
+    position: absolute;
+    z-index: 99;
+    border-radius: 10px;
+}
+.nav ul li ul li{
+    float: none;
+    display: none;
+    border-radius: 10px;
+}
+.nav ul li ul li a{
+    height: auto;
+    display: block;
+    font-size: 18px;
+    padding: auto 0px;
+    border-bottom: 0.8px solid #999;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav ul li:hover ul  li{
+    display: block;
+}
+/* 导航栏end */

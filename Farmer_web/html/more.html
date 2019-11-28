@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- link-css -->
+    <link rel="stylesheet" href="../css/other_style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- link-font -->
+    <link rel="stylesheet" href="../font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- link-js -->
+    <script src="../js/rock.js"></script>
+    <style>
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script>
+    
+    </script>
+</head>
+<body>
+    <div id="content">
+            <header id="head">
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <img src="../images/logo.png" alt="logo">
+                            </li>
+                            <li>
+                                <a href="../index.html"><i class="fa fa-home"></i> 首页</a>
+                            </li>
+                            <li>
+                                <a href="menu.html"> 饮食菜单</a>
+                                <ul>
+                                    <li><a href="menu.html#main-food">主食</a></li>
+                                    <li><a href="menu.html#sec-food">配菜</a></li>
+                                    <li><a href="menu.html#ts-food">甜品</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li>
+                                <a href="#sdwh">饮食文化</a>
+                                <ul>
+                                    <li><a href="#sdls">顺德菜历史</a></li>
+                                    <li><a href="#">视频介绍</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">更多</a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+            </header>
+            <div id="contenter more-html">
+                    <iframe id="frame_content" src="end.html" scrolling="no" frameborder="0" ></iframe>
+                    <br><br><br><br>
+                    <br>
+                    <button onclick="wheight()">233</button>
+                    <p id="p">123</p>
+            </div>
+
+        
+    </div>
+    <script>
+        
+        function wheight(){
+            var myframe = document.getElementById("frame_content");         
+            document.getElementById("p").innerHTML="已修改。";
+            myframe.style.height = "500px";
+
+        }
+        
+        
+    </script>
+</body>
+</html>

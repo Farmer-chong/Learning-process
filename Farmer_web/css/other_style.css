@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    font-family: "微软雅黑";
+    width: 100%;
+    min-width: 1300px;
+    /* position: relative; */
+    height: auto;
+    font-size: 16px;
+    /* margin: 0 auto; */
+}
+
+#contenter{
+    width: 60%;
+    margin: 15px auto;
+    padding-right: 100px;
+    overflow: hidden;
+}
+.content-box{
+    overflow: hidden;
+    margin: 0;
+    height: auto;
+    padding: 20px 0;
+    /* background-color: blanchedalmond; */
+}
+.box-title{
+    padding: 5px 15px;
+    border-bottom: 2px solid #777;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.box-main{
+    float: left;
+    width: 65%;
+}
+.box-main h4{
+    color: #444;
+    margin: 10px 5px;
+}
+.box-main p{
+    margin-bottom: 5px;
+}
+.content-box img{
+    margin: 15px;
+    padding: 20px;
+    width: 25%;
+    float: right;
+}
+
+
+#left{
+    float: left;
+    width: 65%;   
+}
+.introduction{
+    margin-bottom: 30px;
+}
+.introduction h4{
+    margin: 15px 0;
+}
+.introduction h6{
+    margin: 5px 0;
+    padding: 0 20px;
+    font-size: 14px;
+}
+#left iframe{
+    margin: 50px 0;
+    height: 500px;
+
+}
+.wznr{
+    margin-top: 50px;
+}
+
+
+#right{
+    overflow: hidden;
+    margin: 50px 0 0 ;
+    padding: 0 0 0 5%;
+    width: 30%;
+    float: right;
+}
+.share{
+    width: 90%;
+    position: relative;
+    margin-top: 25px;
+    border: 1px solid #3396cb;
+    border-radius: 5px;
+}
+.share a{
+    padding: 0px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.share strong{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px 5px;
+    background-color: #3396cb;
+    color: white;
+}
+.share h2{
+    padding: 5px 15px;
+    color: #3396cb;
+    text-align: center;
+}
+.share p{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+.request{
+    width: 90%;
+    position: relative;
+    margin-top: 25px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.request:hover{
+    border: 1px solid #3396cb;
+}
+.request:hover strong{
+    background-color: #3396cb;
+}
+.request:hover h2{
+    color: #3396cb;
+}
+.request a{
+    padding: 0px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.request strong{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px 5px;
+    background-color: skyblue;
+    color: white;
+}
+.request h2{
+    padding: 5px 15px;
+    text-align: center;
+    color: skyblue;
+}
+.request p{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+/* share-link */
+.share-link{
+    
+    margin-top: 30px;
+    width: 90%;
+    border: 0.8px solid #999;
+}
+.share-link h2{
+    background: #666;
+    color: whitesmoke;
+    padding: 3px 15px;
+}
+
+.menu{
+    width: 100%;
+    font-size: 16px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+.menu a{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    color: #999;
+    display: block;
+    position: relative;
+}
+.menu img{
+    margin: 10px;
+    width: 100px;
+    padding: 5px 5px 5px 15px;
+    display: inline-block;
+}
+
+.share-icon{
+    float: left;
+    width: 20%;
+    /* margin: auto; */
+}
+.share-text{
+    top: 20px;
+    float: left;
+    width: 80%;
+}
+
+.share-text .title{
+    text-align: center;
+    line-height: 88px;
+}
+
+.share-icon img{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.page{
+    color: #00a1d6; 
+    text-decoration: none; 
+    padding:5px 10px; 
+    
+    border: 1px solid #999; 
+    border-radius: 5px;
+    background: whitesmoke;
+    opacity:0.65;
+}
+.page:hover{
+    color: white;
+    background-color: #00a1d6;
+    opacity:0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rock{
+    background-color: white;
+    border: none;
+    position: fixed;
+    bottom: 200px;
+    right: 5%;
+    display: none;
+    -webkit-transition: width 0s, height 0s, -webkit-transform 0.5s;
+    transition: width 0s, height 0s, transform 0.5s;
+}
+#rock img{
+    height: 100px;    
+}
+#rock:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+

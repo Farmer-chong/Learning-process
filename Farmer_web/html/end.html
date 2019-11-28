@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+    </style>
+</head>
+<body id="child">
+    <video controls loop style="width: 640px; height: 360px;">
+        <source src="../video/shenzhen.mp4" type="video/mp4">
+    </video>
+    <div class="wznr">
+            <h2 style="text-align: left;">视频反馈<hr></h2>
+            <br>
+            <form class="form">
+                姓名：<input type="text" name="name" size="20">
+                <br>
+                <br>
+                性别：<input type="radio" name="gender" value="0" checked />男
+                <input type="radio" name="gender" value="1" />女
+                <br>
+                <br>
+                爱好：<input type="checkbox" name="hobby" value="movie">电影
+                <input type="checkbox" name="hobby" value="music">音乐
+                <input type="checkbox" name="hobby" value="sports">运动
+                <br>
+                <br>
+                对本视频最感兴趣的菜品是：
+                <input type="checkbox" name="hobby" value="movie">大头菜
+                <input type="checkbox" name="hobby" value="music">粽子
+                <input type="checkbox" name="hobby" value="sports">乳猪
+                <br>
+                <br>
+                <input style=" margin-right: 15px;padding: 5px 10px;" type="submit" value="提交"/>
+                <input style=" margin-right: 15px;padding: 5px 10px;" type="reset" value="重置"/>
+
+            </form>    
+            <br><br><br><br>           
+    </div>
+</body>
+</html>
