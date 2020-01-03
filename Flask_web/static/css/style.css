@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-size: 24px;
+}
+#content{
+    width: 100%;
+}
+header{
+    width: 100%;
+    margin:0 auto;
+    padding: 5px 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+#body{
+    width: 70%;
+    margin: 0 auto;
+}
+.box{
+    width: 60%;
+    margin: 15px auto 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #777;
+    text-align: center;
+}
+.dead_line{
+    font-size: 16px;
+    color: #555;
+}
+.dead_line span{
+    font-size: 16px;
+    color: red;
+}
+.tips{
+    color: #555;
+    font-size: 14px;
+}

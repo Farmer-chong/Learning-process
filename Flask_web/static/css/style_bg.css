@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    width: 100%;
+    height: auto;
+    min-width: 1000px;
+    margin: 0 60px;
+    padding: 0 auto;
+    background-color: antiquewhite;
+}
+header{
+    margin: 0 auto;
+}
+.form-content{
+    margin: 15px 50px;
+    background-color: aqua;
+}
