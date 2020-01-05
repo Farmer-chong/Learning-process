@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <form class="update" action="../update" method = "POST">
+        <input type="text" name="task">
+        <br>
+        <input type="text" name='dead_line'>
+        <br>
+        <input type="submit" value="更新">
+    </form>
+{% endblock %}
