@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>科技部寒假快乐大礼包</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1>{{ header }}</h1>
+        </header>
+        <div id="body">
+            <div class="text">
+                <h3>{{ Number }}</h3>
+                {% if task %}
+                <span> {{ task }}</span>
+                {% endif %}
+                <br><br>
+                {% if dead_line %}
+                <p>截止时间： {{ dead_line}} </p>
+                {% endif %}
+                <p>提交格式: 任务名+姓名 、提交压缩包文件</p>
+                <br>
+                <form class="form" action="http://127.0.0.1:5000/upload" method = "POST" 
+                enctype = "multipart/form-data">
+                <input type = "file" name = "file" />
+                <input class="submit" type = "submit"/>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

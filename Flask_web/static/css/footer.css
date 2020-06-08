@@ -1,0 +1,24 @@
+footer{
+    /* position: absolute; */
+    bottom: 0px;
+    width: 100%;
+    background-color: #333;
+    margin: 30px 0 0;
+    padding: 20px 0;
+    
+}
+#footer{
+    color: #999;
+    margin: 0 auto;
+    padding: 10px auto;
+    
+}
+#footer p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+}
+#footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for content in contents %}
+    <div class="box">
+        <form class="form" action="../upload" method = "POST" 
+        enctype = "multipart/form-data">
+        <!-- 题目 -->
+        <span> {{ content['task'] }}</span>
+        <br><br>
+        <!-- 截至日期 -->
+        <p class="dead_line">时间：<span> {{ content['dead_line'] }} </span> </p>
+        <!-- <p class="tips">提交格式: 任务名+姓名 </p> -->
+        <br>
+        
+        <input type = "file" name = "file" />
+        <input class="submit" type = "submit" value="走你👉！" />
+        <input style="display: none;" type="text" name="task" value="{{ content['task'] }}">
+        </form>
+    </div>
+    <script>
+        
+    </script>
+    {% endfor %}
+{% endblock %}
